@@ -9,4 +9,5 @@ vlc
 vscode
 xmedia-recode
 steam
+opera
 https://raw.githubusercontent.com/patzaba8/program-no-scoop/main/idm.json
