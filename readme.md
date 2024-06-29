@@ -24,5 +24,5 @@ git clone https://github.com/patzaba8/Install-App.git $ENV:USERPROFILE/Install_A
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Run the install script to set up the Install App:
-~/Install App/install.ps1
+~/Install_App/install.ps1
 ```
