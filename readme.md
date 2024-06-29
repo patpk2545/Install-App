@@ -18,7 +18,7 @@ scoop install git
 หลังจากติดตั้ง git ให้ปิดและเปิด windows powerShell อีกครั้งเพื่อ git commands
 
 # Clone the Install App git repository to your home directory:
-git clone https://github.com/patzaba8/Install-App-Windows.git $ENV:USERPROFILE/Install App
+git clone https://github.com/patzaba8/Install-App.git $ENV:USERPROFILE/Install_App
 
 # Set the execution policy to allow running the install script:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
