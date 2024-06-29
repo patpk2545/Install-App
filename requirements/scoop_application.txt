@@ -1,0 +1,12 @@
+7zip
+discord
+eartrumpet
+notion
+oraclejdk-lts
+powertoys
+spotify
+vlc
+vscode
+xmedia-recode
+steam
+https://raw.githubusercontent.com/patzaba8/program-no-scoop/main/idm.json
