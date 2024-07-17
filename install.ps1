@@ -38,13 +38,12 @@ function Configure-VisualStudioCode {
     return 1
   }
   $installed_path = Get-Command code | Select-Object -ExpandProperty Path
-  if ($installed_path -like "*Microsoft VS Code\*") {
-    $vscode_path = "$ENV:USERPROFILE/AppData/Roaming/Code/User"
-  } elseif ($installed_path -like "*scoop\apps\vscode\current\*") {
-    $vscode_path = "$ENV:USERPROFILE/scoop/apps/vscode/current/data/user-data/User"
-  } else {
-    Write-Host "Invalid visual studio code path."
-    return 1
+  foreach ($path in $installed_paths) {
+    if ($path -like "*Microsoft VS Code\*") {
+      $vscode_path = "$ENV:USERPROFILE/AppData/Roaming/Code/User"
+    } elseif ($path -like "*scoop\apps\vscode\current\*") {
+      $vscode_path = "$ENV:USERPROFILE/scoop/apps/vscode/current/data/user-data/User"
+    }
   }
   Write-Host "Configuring visual studio code."
   Get-ChildItem -Path "$vscode_path" -ErrorAction SilentlyContinue | Where-Object Extension -in ".json" | Remove-Item -Recurse -Force
