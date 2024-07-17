@@ -9,4 +9,5 @@ vscode
 xmedia-recode
 steam
 opera
+googlechrome
 https://raw.githubusercontent.com/patzaba8/program-no-scoop/main/idm.json
