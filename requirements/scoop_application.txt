@@ -10,4 +10,5 @@ xmedia-recode
 steam
 opera
 googlechrome
+bitwarden
 https://raw.githubusercontent.com/patzaba8/program-no-scoop/main/idm.json
