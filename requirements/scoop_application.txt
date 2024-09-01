@@ -11,4 +11,5 @@ steam
 opera
 googlechrome
 bitwarden
+voicemeeter-potato-np
 https://raw.githubusercontent.com/patzaba8/program-no-scoop/main/idm.json
