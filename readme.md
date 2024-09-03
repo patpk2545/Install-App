@@ -21,6 +21,9 @@ git clone https://github.com/patpk2545/Install-App.git C:/Scoop
 # Set the execution policy to allow running the install script:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+#เปลี่ยน Path scoop
+config root_path C:\scoop
+
 # Run the install script to set up the Install App:
 C:\Scoop\install.ps1
 ```
